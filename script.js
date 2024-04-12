@@ -92,11 +92,5 @@ function fetchFunction() {
     window.location.href = "index.html";
   });
   
-  //dark mood toogle
-  const bg = document.body;
   
-  const toggler = document.getElementById("toggler");
-  toggler.addEventListener("click", () => {
-    bg.classList.toggle("dark");
-  });
   

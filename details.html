@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Details</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <nav class="flex justify-between items-center px-20 shadow-md py-5 ">
+        <h1 class="font-bold text-lg">Where in the world?</h1>
+        <span class="align-middle font-bold cursor-pointer " id="toggler" 
+          ><svg
+            class="w-5 inline font-bold "
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="{1.5}"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"
+            />
+          </svg>
+          Dark Mood</span
+        >
+      </nav>
+      <div class="p-20">
+        <button id="btn" class="mb-32 h-12 w-48 overflow-hidden rounded-2xl bg-gray-300 text-lg font-bold text-white">Go Back</button>
+        <div id="details-container">
+        </div>
+      </div>
+      
+    
+    <!-- Any additional scripts can be included here -->
+    <script src="script.js"></script>
+</body>
+</html>
